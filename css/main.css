@@ -1,0 +1,26 @@
+main {
+    background:url(../img/main-img.jpg) !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+.wrapper .our-benefits {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url(../img/benefits.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wrapper .reviews {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url(../img/reviews-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    main {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url(../img/main-img.jpg) !important;
+    }
+    .wrapper .our-benefits {
+        background-position: 30% 100%;
+    }
+}

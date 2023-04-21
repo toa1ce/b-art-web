@@ -318,11 +318,14 @@ ul, li {
   .wrapper header .navbar {
     padding: 0;
   }
-  .wrapper header .navbar .navbar-links, .wrapper header .navbar .sm-links {
+  .wrapper header .navbar .navbar-links {
     display: none;
   }
   .wrapper header .navbar img {
     width: 80px;
+  }
+  .wrapper header .navbar .sm-links {
+    padding-bottom: 20px;
   }
   .wrapper .main {
     height: 88vh;
@@ -399,6 +402,7 @@ ul, li {
   .wrapper .popular-furniture .popular-furniture-content .popular-furniture__cards .popular-furniture__cards-card {
     width: 190px;
     height: 330px;
+    padding: 10px;
   }
   .wrapper .popular-furniture .popular-furniture-content .popular-furniture__cards .popular-furniture__cards-card .popular-furniture__cards-card-img img {
     height: 170px;
@@ -431,7 +435,7 @@ ul, li {
     height: 260px;
   }
   .wrapper .reviews .reviews-content .reviews-content-cards .reviews-content-cards-card .reviews-content-cards-card-img img {
-    left: 22vh;
+    left: 16vh;
   }
   .wrapper .reviews .reviews-content .reviews-content-cards .reviews-content-cards-card .reviews-content-cards-card-name h3 {
     margin-top: -35px;

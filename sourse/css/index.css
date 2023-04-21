@@ -95,10 +95,20 @@ ul, li {
   padding: 20px;
   margin: 0 auto;
 }
+.wrapper .we-produce .we-produce__cards .we-produce__cards-card .we-produce__cards-card-img {
+  overflow-x: hidden;
+  border-radius: 10px;
+}
 .wrapper .we-produce .we-produce__cards .we-produce__cards-card .we-produce__cards-card-img img {
   width: 100%;
   height: 300px;
   border-radius: 10px;
+}
+.wrapper .we-produce .we-produce__cards .we-produce__cards-card .we-produce__cards-card-img img:hover {
+  width: 105%;
+  height: 310px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 .wrapper .we-produce .we-produce__cards .we-produce__cards-card .we-produce__cards-card-text h3 {
   margin: 20px 0;
